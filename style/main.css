@@ -1,11 +1,12 @@
 @import url(fonts/clear-sans.css);
 html, body {
-  margin: 0;
-  padding: 0;
-  background: #faf8ef;
-  color: #776e65;
-  font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
-  font-size: 18px; }
+	margin: 0;
+	padding: 0;
+	background: #fff;
+	color: #5B7FA6;
+	font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
+	font-size: 18px;
+}
 
 body {
   margin: 80px 0; }
@@ -56,7 +57,7 @@ h1.title {
 .score-container, .best-container {
   position: relative;
   display: inline-block;
-  background: #bbada0;
+  background: #F0F2F4;
   padding: 15px 25px;
   font-size: 25px;
   height: 25px;
