@@ -56,32 +56,23 @@ h1.title {
 	text-align: center;
 }
 
+.scores-container {
+  float: right;
+  text-align: right; }
+
 .score-container, .best-container {
-	position: relative;
-	display: inline-block;
-	background: #F0F2F4;
-	padding: 15px 25px;
-	font-size: 25px;
-	height: 25px;
-	line-height: 47px;
-	font-weight: bold;
-    position: absolute;
-    right: 30px;
-padding: 5px 6px;
-margin-top: -1px;
-right: 0px;
-position: absolute;
-white-space: nowrap;
--webkit-border-radius: 3px;
--khtml-border-radius: 3px;
--moz-border-radius: 3px;
-border-radius: 3px;
-overflow: hidden;    line-height: 25px;
-    color: #2F5879;
-font-size: 10px;
-	margin-top: 8px;
-	text-align: center;
-}
+  position: relative;
+  display: inline-block;
+  background: #E9EDF1;
+  padding: 15px 25px;
+  font-size: 25px;
+  height: 25px;
+  line-height: 47px;
+  font-weight: bold;
+  border-radius: 3px;
+  color: #2F5879;
+  margin-top: 8px;
+  text-align: center; }
   .score-container:after, .best-container:after {
     position: absolute;
     width: 100%;
@@ -95,18 +86,11 @@ font-size: 10px;
   .score-container .score-addition, .best-container .score-addition {
     position: absolute;
     right: 30px;
-padding: 5px 6px;
-margin-top: -1px;
-right: 0px;
-position: absolute;
-white-space: nowrap;
--webkit-border-radius: 3px;
--khtml-border-radius: 3px;
--moz-border-radius: 3px;
-border-radius: 3px;
-overflow: hidden;    line-height: 25px;
     color: #2F5879;
-font-size: 10px;
+    font-size: 25px;
+    line-height: 25px;
+    font-weight: bold;
+    color: rgba(119, 110, 101, 0.9);
     z-index: 100;
     -webkit-animation: move-up 600ms ease-in;
     -moz-animation: move-up 600ms ease-in;
