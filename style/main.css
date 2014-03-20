@@ -61,18 +61,19 @@ h1.title {
   text-align: right; }
 
 .score-container, .best-container {
-  position: relative;
-  display: inline-block;
-  background: #E9EDF1;
-  padding: 15px 25px;
-  font-size: 25px;
-  height: 25px;
-  line-height: 47px;
-  font-weight: bold;
-  border-radius: 3px;
-  color: #2F5879;
-  margin-top: 8px;
-  text-align: center; }
+	position: relative;
+	display: inline-block;
+	background: #E9EDF1;
+	padding: 15px 15px;
+	font-size: 25px;
+	height: 25px;
+	line-height: 47px;
+	font-weight: bold;
+	border-radius: 3px;
+	color: #2F5879;
+	margin-top: 8px;
+	text-align: center;
+}
   .score-container:after, .best-container:after {
     position: absolute;
     width: 100%;
@@ -118,10 +119,11 @@ strong.important {
   text-transform: uppercase; }
 
 hr {
-  border: none;
-  border-bottom: 1px solid #d8d4d0;
-  margin-top: 20px;
-  margin-bottom: 30px; }
+	border: none;
+	border-bottom: 1px solid #d8d4d0;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
 
 .container {
   width: 500px;
@@ -691,7 +693,8 @@ hr {
     transform: translate(202px, 202px); }
 
   .game-container {
-    margin-top: 20px; }
+	margin-top: 5px;
+}
 
   .tile .tile-inner {
     font-size: 35px; }
