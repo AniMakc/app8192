@@ -86,11 +86,9 @@ h1.title {
   .score-container .score-addition, .best-container .score-addition {
     position: absolute;
     right: 30px;
-    color: #2F5879;
     font-size: 25px;
     line-height: 25px;
-    font-weight: bold;
-    color: rgba(119, 110, 101, 0.9);
+    color: #BCCDDD;
     z-index: 100;
     -webkit-animation: move-up 600ms ease-in;
     -moz-animation: move-up 600ms ease-in;
