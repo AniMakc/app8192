@@ -3,7 +3,7 @@ html, body {
 	margin: 0;
 	padding: 0;
 	background: #F7F7F7;
-	color: #5B7FA6;
+	color: #FFFFFF;
 	font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
 	font-size: 18px;
 }
@@ -200,7 +200,8 @@ background: rgba(0, 0, 0, 0.69);
       border-radius: 3px;
       padding: 0 20px;
       text-decoration: none;
-      color: #f9f6f2;
+	background-color: #597DA3;
+	border-width: 0px 1px;
       height: 40px;
       line-height: 42px;
       margin-left: 9px; }
