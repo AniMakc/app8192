@@ -21,7 +21,7 @@ h1.title {
 	font-weight: bold;
 	margin: 0;
 	display: block;
-	float: left;
+	float: right;
 }
 
 @-webkit-keyframes move-up {
@@ -52,22 +52,24 @@ h1.title {
     opacity: 0; } }
 
 .scores-container {
-  float: right;
-  text-align: right; }
+	float: left;
+	text-align: center;
+}
 
 .score-container, .best-container {
-  position: relative;
-  display: inline-block;
-  background: #F0F2F4;
-  padding: 15px 25px;
-  font-size: 25px;
-  height: 25px;
-  line-height: 47px;
-  font-weight: bold;
-  border-radius: 3px;
-  color: white;
-  margin-top: 8px;
-  text-align: center; }
+	position: absolute;
+	display: inline-block;
+	background: #F0F2F4;
+	padding: 15px 25px;
+	font-size: 25px;
+	height: 25px;
+	line-height: 47px;
+	font-weight: bold;
+	border-radius: 3px;
+	color: #5B7FA6;
+	margin-top: 8px;
+	text-align: center;
+}
   .score-container:after, .best-container:after {
     position: absolute;
     width: 100%;
