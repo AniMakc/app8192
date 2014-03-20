@@ -44,7 +44,7 @@ h1.title {
 
 @keyframes move-up {
   0% {
-    top: 25px;
+    top: 15px;
     opacity: 1; }
 
   100% {
@@ -71,7 +71,7 @@ h1.title {
 	font-weight: bold;
 	border-radius: 3px;
 	color: #2F5879;
-	margin-top: 8px;
+	margin-top: 5px;
 	text-align: center;
 }
   .score-container:after, .best-container:after {
@@ -536,21 +536,22 @@ hr {
     margin-bottom: 10px; }
 
   .game-container {
-    margin-top: 40px;
-    position: relative;
-    padding: 10px;
-    cursor: default;
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    background: #bbada0;
-    border-radius: 6px;
-    width: 280px;
-    height: 280px;
-    -ms-touch-action: none;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box; }
+	margin-top: 5px;
+	position: relative;
+	padding: 10px;
+	cursor: default;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	background: #bbada0;
+	border-radius: 6px;
+	width: 280px;
+	height: 280px;
+	-ms-touch-action: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
     .game-container .game-message {
       display: none;
       position: absolute;
